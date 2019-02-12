@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Challenge 2- Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron:400,700|Changa+One|Audiowide|Contrail+One|Cuprum|Volkron|Overlock|Press+Start+2P' rel='stylesheet' type='text/css'>
+  
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- the navbar will go here -->
+  
+<nav class="navbar navbar-default navbar-fixed-top">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle Navigation </span>
+        <span class="icon-bar" style ="background-color:#343781"></span>
+        <span class="icon-bar"style ="background-color:#343781"></span>
+        <span class="icon-bar"style ="background-color:#343781"></span>
+      </button>
+      <a href="#" class="navbar-brand" id="logo">Morefiero</a>
+    </div>
+    <div class="navbar-collapse collapse" id="portfolio-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social Media<span class="caret"></span></a>
+         <ul class="dropdown-menu">
+           <li><a href="https://www.facebook.com/leul.woldeab" target="_blank"><i class="fa fa-facebook"> Facebook</i></a></li>
+           <li><a href="https://github.com/morefiero"target="_blank"><i class="fa fa-github"> Github</i></a></li>
+           <li><a href="https://twitter.com/GroundedWeb"target="_blank"><i class="fa fa-twitter"> Twitter</i></a></li>
+      </ul>
+      </ul>
+      
+    </div>
+  </nav>
+<!-- about section goes here  --> 
+<div="container-fluid">
+  <section id="about">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="images/profile_pic_2.jpg" class="img-responsive img-circle">
+        <p class="name"><i class="fa fa-hand-peace-o" aria-hidden="true"></i> Leul Shewangizaw</p>
+      </div>
+      <div class="col-sm-8">
+        <p>Fiero is a word used in the gaming world to describe that fist pumping sensation of joy that is caused when you win or overcome a challenge. Programming gives me this feeling whenever I solve a tough problem or finish a project, I'm a growing developer looking to do important work.</p>
+      </div>
+    </div>
+    </section>
+<!-- portfolio section will go here-->
+ <section id="portfolio">
+  <h2 class="text-center">Look what I can do</h2>
+  <div id="effect-6" class="effects clearfix">
+  <div class="col-md-4">
+    <div class="img">
+        <img src="https://s3.amazonaws.com/codepen-assets-morefiero/galaxy.png" class="img-responsive" alt="">
+        <div class="overlay">
+            <a href="https://www.galaxy.limo/" target="_blank" class="expand">Galaxy Limo</a>
+            <a class="close-overlay hidden">x</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+    <div class="img">
+        <img src="https://s3.amazonaws.com/codepen-assets-morefiero/invadervapor.png" class="img-responsive" alt="">
+        <div class="overlay">
+            <a href="http://invadervapor.com" target="_blank" class="expand">Invader Vapor</a>
+            <a class="close-overlay hidden">x</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+    <div class="img">
+        <img src="https://s3.amazonaws.com/codepen-assets-morefiero/rpc.png" class="img-responsive" alt="">
+        <div class="overlay">
+            <a href="http://reciprocitycoaching.com" target="_blank" class="expand">Reciprocity Coaching</a>
+            <a class="close-overlay hidden"></a>
+        </div>
+      </div>
+    </div>
+</div>
+  </section>
+<!-- contact section goes here-->
+  <section id="contact">
+    <h2 class="text-center">Lets connect</h2>
+    <form>
+      <div class="form-group">
+        
+        <input type="text" class="form-control" id="nameInput" placeholder="Name"></input>
+      </div>
+    <div class="form-group">
+        
+        <input type="email" class="form-control" id="emailInput" placeholder="E-mail"></input>
+      </div>
+  <div class="form-group">
+       
+        <textarea rows="5" class="form-control" id="messageInput" placeholder="Talk nerdy to me"></textarea>
+      </div>
+  <button type="submit"> SUBMIT</button>
+    </form>      
+  </section>
+</div>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.1.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+body {
+  padding: 70px;
+background-color: #2d88c8;
+background-image: url("http://www.transparenttextures.com/patterns/hexellence.png");
+}
+
+
+/* styles for the navbar area */
+#logo {
+  color: #b5dfca;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 2px 2px #2c3258; 
+ 
+}
+.navbar {
+  background-color: #165ba4;
+  background-image:       url("http://www.transparenttextures.com/patterns/hexellence.png");
+  height: 60px;
+}
+.navbar-default .navbar-nav>li:nth-child(4)>a:focus{
+  background-color: transparent;
+  color: #fec80d;
+}
+.navbar-default .navbar-nav>li>a {
+  color:  #b5dfca;
+  font-size: 18px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #fec80d;
+}
+.navbar-default .dropdown-menu {
+  padding: 0;
+}
+.navbar-default .dropdown-menu>li:nth-child(1){
+  background-color: #3B5998;
+  color: #fff;
+}
+.navbar-default .dropdown-menu>li:nth-child(2){
+  background-color: #800080;
+  color: #fff;
+}
+.navbar-default .dropdown-menu>li:nth-child(3){
+  background-color: #1dcaff;
+  color: #fff;
+}
+
+.navbar-default .dropdown-menu>li>a {
+  color: #fff;
+}
+.navbar-default .dropdown-menu>li:nth-child(1)>a:hover {
+  color: #3B5998;
+  background-color: #fff;
+}
+.navbar-default .dropdown-menu>li:nth-child(2)>a:hover {
+  color: #800080;
+  background-color: #fff;
+}
+.navbar-default .dropdown-menu>li:nth-child(3)>a:hover {
+  color: #1dcaff;
+  background-color: #fff;
+}
+/* style for collapse menu */
+@media only screen and (max-width : 768px) {
+  .navbar-collapse .navbar-nav {
+    background-color: #165ba4;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+}
+ }
+.navbar-default .navbar-toggle {
+  border: 2px solid #343781;
+}
+.navbar-default span.icon-bar{
+  color: #fe900d;
+}
+button.navbar-toggle.collapsed {
+  background-color: #b5dfca;
+}
+/* styles for the about area */
+#about{
+  padding-top: 10px;
+}
+#about .name {
+  color: #fec80d;
+  font-family: "Overlock", sans-serif;
+  font-size: 22px;
+  padding-top: 10px;
+}
+#about img {
+  box-shadow:
+    -8px 0px 0px 0px #dc1f27,
+    8px 0px 0px 0px #dc1f27,
+    0px -8px 0px 2px #000,
+    0px 8px 0px 2px #000,
+    0px 0px 0px 15px #fdc900;
+}
+#about p {
+  font-size: 20px;
+  color: #fec80d;
+  font-family: "Overlock", serif;
+  padding-top: 21px;
+}
+/* styles for the portfolio section */
+h2{
+  font-family: "Orbitron", sans- serif;
+  color: #fec80d;
+  padding-bottom: 15px;
+  }
+
+/* styles for the contact form */
+button {
+  font-family: "Press Start 2P", sans-serif;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+}
+button:hover{
+  color: #fec80d;
+}
+
+.form-control{
+   font-family: "Press Start 2P", sans-serif;
+  background-color: transparent;
+  color: #fff;
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+  border-radius: 0;
+}
+.form-control::-webkit-input-placeholder { color: white; }
+.form-control:-moz-placeholder { color: white; }
+.form-control::-moz-placeholder { color: white; }
+.form-control:-ms-input-placeholder { color: white; }
+
+/* Overlay attempt */
+.overlay {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  background-color: rgba(22, 91, 164, 0.8);
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+a.close-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  width: 30px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  background-color: #165ba4;
+  cursor: pointer;
+}
+a.close-overlay.hidden {
+  display: none;
+}
+
+a.expand {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  color: #fec80d;
+  font-weight: 700;
+  font-size: 30px;
+}
+a.expand:hover{
+  color: #fff;
+  text-decoration: none;
+}
+/* ============================================================
+  EFFECT 6 - ICON BOUNCE IN
+============================================================ */
+#effect-6 .overlay {
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  opacity: 0;
+}
+#effect-6 .overlay a.expand {
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#effect-6 .img.hover .overlay {
+  
+  opacity: 1;
+  
+}
+#effect-6 .img.hover .overlay a.expand {
+  top: 50%;
+  margin-top: -30px;
+  opacity: 1;
+}
+
