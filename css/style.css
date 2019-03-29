@@ -110,6 +110,10 @@ h2{
   padding-bottom: 15px;
   }
 
+.me li {
+  color: #fff
+}
+
 /* styles for the contact form */
 button {
   font-family: "Press Start 2P", sans-serif;
